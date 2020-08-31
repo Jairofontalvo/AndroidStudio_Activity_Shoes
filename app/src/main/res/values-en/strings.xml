@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">" Footwear App"</string>
+    <string name="error">All fields are required</string>
+    <string name="volume">Enter Amount</string>
+    <string name="lbl_sex">Sex</string>
+    <string name="lbl_shoeType">Type of Footwear</string>
+    <string name="lbl_mark">Brand</string>
+    <string name="txt_volume">Quantity</string>
+    <string name="rb_man">Mens</string>
+    <string name="rb_woman">Women</string>
+    <string name="rb_slipper">slipper</string>
+    <string name="rb_classic">Classic</string>
+    <string name="rb_nike">Nike</string>
+    <string name="rb_adidas">Adidas</string>
+    <string name="rb_puma">Puma</string>
+    <string name="bt_calculate">Calculate</string>
+
+</resources>

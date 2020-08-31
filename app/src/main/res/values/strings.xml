@@ -1,0 +1,16 @@
+<resources>
+<string name="app_name">App Calzado</string>
+<string name="volume">Ingrese Cantidad</string>
+<string name="rb_man">Hombres</string>
+<string name="rb_woman">Mujeres</string>
+<string name="lbl_shoeType">Tipo de Zapato</string>
+<string name="rb_slipper">Zapatilla</string>
+<string name="rb_classic">Clasico</string>
+<string name="lbl_mark">Marca</string>
+<string name="rb_nike">Nike</string>
+<string name="rb_adidas">Adidas</string>
+<string name="rb_puma">Puma</string>
+<string name="bt_calculate">Calcular</string>
+<string name="txt_volume">Cantidad</string>
+    <string name="error">Todos Los Campo Son Necesario</string>
+</resources>

@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/conatiner_principal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <RadioGroup
+        android:id="@+id/Grupo_Sex"
+        android:layout_width="match_parent"
+        android:layout_height="113dp">
+
+        <RadioButton
+            android:id="@+id/rb_Mens"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/rb_man"></RadioButton>
+
+        <RadioButton
+            android:id="@+id/rb_Womens"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/rb_woman"></RadioButton>
+    </RadioGroup>
+
+    <RadioGroup
+        android:id="@+id/Grupo_Type_Footwear"
+        android:layout_width="match_parent"
+        android:layout_height="112dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/lbl_shoeType"
+            android:textAlignment="center">
+
+        </TextView>
+
+        <RadioButton
+            android:id="@+id/rb_Slipper"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/rb_slipper"></RadioButton>
+
+        <RadioButton
+            android:id="@+id/rb_Clasic"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/rb_classic"></RadioButton>
+    </RadioGroup>
+
+    <RadioGroup
+        android:id="@+id/Grupo_Brand"
+        android:layout_width="match_parent"
+        android:layout_height="143dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/lbl_mark"
+            android:textAlignment="center"></TextView>
+
+        <RadioButton
+            android:id="@+id/rb_Nike"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/rb_nike"
+            android:textAlignment="textStart"></RadioButton>
+
+        <RadioButton
+            android:id="@+id/rb_Adidas"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/rb_adidas"></RadioButton>
+
+        <RadioButton
+            android:id="@+id/rb_Puma"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/rb_puma"></RadioButton>
+    </RadioGroup>
+
+    <EditText
+        android:id="@+id/txt_Quantity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/volume"
+        android:inputType="number"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <Button
+        android:id="@+id/btn_Calculate"
+        android:layout_width="match_parent"
+        android:layout_height="47dp"
+        android:onClick="Calculate"
+        android:text="@string/bt_calculate" />
+
+    <TextView
+        android:id="@+id/lbl_Totals"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp">
+
+    </TextView>
+
+
+</LinearLayout>
